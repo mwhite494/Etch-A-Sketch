@@ -1,0 +1,27 @@
+{
+  "name": "data-logger",
+  "version": "0.0.1",
+  "description": "Basic webserver that sends a file and updates to that file over websockets to a vega-light website for data visualization",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node install.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FAR-Lab/etch-a-sketch.git"
+  },
+  "author": "David Goedicke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FAR-Lab/etch-a-sketch/issues"
+  },
+  "homepage": "https://github.com/FAR-Lab/etch-a-sketch.git#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.0.4",
+    "sketch-js": "^1.1.3",
+    "serialport": "^6.1.1"
+  }
+}
